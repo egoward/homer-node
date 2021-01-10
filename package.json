@@ -1,0 +1,15 @@
+{
+  "name": "homer-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "read.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.485.0",
+    "mqtt": "^4.2.6"
+  }
+}

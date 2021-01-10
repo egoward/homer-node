@@ -1,0 +1,12 @@
+{
+    "bluetooth": {
+        "Fridge" : {
+            "id":  "DC:76:55:7A:D5:09"
+        }
+    },
+    "sensorMap": {
+        "Study": {
+            "id": "28-01144858a5aa"
+        }
+    }    
+}

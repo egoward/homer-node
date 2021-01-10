@@ -1,0 +1,10 @@
+[Unit]
+Description=Homer Node - Sensor Uploader
+After=multi-user.taret
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/node /home/pi/homer-node/read.js
+
+[Install]
+WantedBy=multi-user.target
