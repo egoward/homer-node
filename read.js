@@ -166,7 +166,7 @@ async function publishSensorConfig( sensor_id, sensorName, unitForMQTT, unitForH
     var payloadText = JSON.stringify(payload);
     var channel = "homeassistant/sensor/"+sensorName + "_" + unitForMQTT+"/config";
     console.log("Broadacast ", {channel, payloadText});
-    mqttClient.publish( channel, payloadText);
+    mqttClient.publish( channel, payloadText, {retain:true});
 }
 
 async function publishHomeAssistantDiscoveryConfig() {
